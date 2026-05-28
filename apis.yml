@@ -1,0 +1,32 @@
+aid: apiip
+name: Apiip
+description: "Get location information by IP address"
+url: https://apiip.net/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Geocoding"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Geocoding
+  - Public APIs
+apis:
+  - name: Apiip
+    description: "Get location information by IP address"
+    humanURL: https://apiip.net/
+    baseURL: https://apiip.net/
+    tags:
+      - Geocoding
+    properties:
+      - type: Documentation
+        url: https://apiip.net/
+common:
+  - type: Website
+    url: https://apiip.net/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
