@@ -39,7 +39,6 @@ apis:
   - name: Apiip
     description: "Get location information by IP address"
     humanURL: https://apiip.net/
-    baseURL: https://apiip.net/
     tags:
       - Geocoding
     properties:
